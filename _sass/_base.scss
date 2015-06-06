@@ -1,0 +1,84 @@
+.mainnav{
+  background-color: #3498db;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  span.loc{
+    margin-left: 150px;
+    color: #34495e;
+    font-family: Lato;
+    font-size: 30px;
+  }
+  span.fin{
+    color: #ecf0f1;
+    font-family: Lato;
+    font-size: 30px;
+  }
+  .rightset{
+    padding-top: 18px;
+    margin-right: 200px;
+    font-family: Lato;
+    font-size: 15px;  
+  }
+}
+.secondnav{
+  background-color: #03033B;
+  margin: 0;
+  border-radius: 0;
+  border: 0;
+  .navbar-nav>li>a {
+    color: white;
+  }
+  .navbar-nav>li>a:hover{
+    background-color: #3498db;
+  }
+  .navicons1{
+    margin-left: 45px;
+  }
+  .righticons{
+    margin-right: 100px;
+    font-size: 10px;
+  }
+}
+#navcontainer  ul {
+  margin: 9px ;
+  padding: 0;
+  list-style-type: none;
+}
+#navcontainer ul li{
+  display: inline;
+}
+#navcontainer ul li a{
+  color: #ecf0f1;
+}
+.inmap{
+  position: absolute;
+  margin: -56px;
+  background-color: #34495e;
+  margin-left: 362px;
+  height: 40px;
+}
+#number1{
+  color: red;
+  padding-right: 20px;
+  border-radius: 100%;
+}
+#number2{
+  color: red;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.navbar-nav .dropdown-menu{
+  width: 60vw;
+  left: 44px; 
+  background-color: #3498db;
+}
+.navbar-default .navbar-nav>.open>a{
+  &, &:hover, &:focus {
+    background-color: #3498db;
+  }
+}
+.footer{
+  background-color: #03033B;
+  color: #34495e;
+}
