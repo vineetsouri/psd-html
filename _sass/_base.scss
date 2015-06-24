@@ -1,10 +1,10 @@
 .mainnav{
-  background-color: #3498db;
+  background-color: #4e4eff;
   margin: 0;
   border: 0;
   border-radius: 0;
   span.loc{
-    margin-left: 150px;
+    margin-left: 29px;
     color: #34495e;
     font-family: Lato;
     font-size: 30px;
@@ -16,7 +16,7 @@
   }
   .rightset{
     padding-top: 18px;
-    margin-right: 200px;
+    margin-right: 130px;
     font-family: Lato;
     font-size: 15px;  
   }
@@ -33,11 +33,29 @@
     background-color: #3498db;
   }
   .navicons1{
-    margin-left: 45px;
+    // margin-left: 45px;
   }
   .righticons{
     margin-right: 100px;
     font-size: 10px;
+  }
+  button{
+    background-color: #60ff60;
+    position: absolute;
+    top: 6px;
+    right: 7px;
+  }
+  .last{
+    border-radius: 3px;
+    color: white;
+    padding: 5px 20px;
+    background-color: #00CB00;
+    text-decoration: none;
+    float: right;
+    position: absolute;
+    top: 3px;
+    right: 5px;
+
   }
 }
 #navcontainer  ul {
@@ -50,35 +68,85 @@
 }
 #navcontainer ul li a{
   color: #ecf0f1;
+  margin: 11px;
+  font-weight: bold;
 }
 .inmap{
   position: absolute;
   margin: -56px;
   background-color: #34495e;
-  margin-left: 362px;
-  height: 40px;
+  margin-left: 70px;
+  height: 43px;
+  .map-button{
+    border-radius: 3px;
+    color: white;
+    padding: 5px 20px;
+    background-color: #00CB00;
+    text-decoration: none;
+    float: right;
+    position: absolute;
+    top: -5px;
+    right: 0;
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+  }
 }
 #number1{
-  color: red;
-  padding-right: 20px;
-  border-radius: 100%;
+  color: black;
+  border-radius: 50%;
+  background-color: white;
+  width: 25px;
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  margin-right: 15px;
 }
 #number2{
-  color: red;
-  padding-right: 20px;
-  padding-left: 20px;
+  color: black;
+  border-radius: 50%;
+  background-color: white;
+  width: 25px;
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  margin-right: 15px;
 }
 .navbar-nav .dropdown-menu{
-  width: 60vw;
-  left: 44px; 
+  width: 76vw;
+  // left: 44px; 
   background-color: #3498db;
 }
 .navbar-default .navbar-nav>.open>a{
   &, &:hover, &:focus {
+    color: white;
     background-color: #3498db;
   }
 }
 .footer{
   background-color: #03033B;
   color: #34495e;
+  #footerhead{
+    color: white;
+  }
+  .row{
+    margin-left: 52px;
+  }
+  .lastcolumn{
+    float: right;
+  }
+  h4 {
+    color: white;
+  }
+}
+#table-header{
+  font-family: Lato;
+  color: #3498db;
+  font-size: 30px;
+}
+#View-Location{
+  color: #3498db;
 }
