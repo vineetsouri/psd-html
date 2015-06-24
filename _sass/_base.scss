@@ -89,8 +89,8 @@
     top: -5px;
     right: 0;
     &:hover {
-      background-color: white;
       color: black;
+      background-color: white;
     }
   }
 }
@@ -126,6 +126,24 @@
     color: white;
     background-color: #0C99C7;
   }
+}
+
+.icons{
+  width: 45px;
+  float: left;
+  .icon {
+    padding: 10px;
+    margin-bottom: 3px;
+    background-color: #0B98C7;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+  }
+}
+#indented-container {
+  background-color: #FFFFFF;
+  margin-left: 45px;
+  padding: 0px 25px;  
 }
 .footer{
   background-color: #003664;
