@@ -16,13 +16,13 @@
   }
   .rightset{
     padding-top: 18px;
-    margin-right: 130px;
+    //margin-right: 130px;
     font-family: Lato;
     font-size: 15px;  
   }
 }
 .secondnav{
-  background-color: #03033B;
+  background-color: #003664;
   margin: 0;
   border-radius: 0;
   border: 0;
@@ -30,13 +30,14 @@
     color: white;
   }
   .navbar-nav>li>a:hover{
-    background-color: #3498db;
+    background-color: #04264C;
+    color: white;
   }
   .navicons1{
     // margin-left: 45px;
   }
   .righticons{
-    margin-right: 100px;
+    //margin-right: 100px;
     font-size: 10px;
   }
   button{
@@ -49,7 +50,7 @@
     border-radius: 3px;
     color: white;
     padding: 5px 20px;
-    background-color: #00CB00;
+    background-color: #9ABB13;
     text-decoration: none;
     float: right;
     position: absolute;
@@ -74,14 +75,14 @@
 .inmap{
   position: relative;
   top: -56px;
-  background-color: #34495e;
+  background-color: #003664;
   // margin-left: 70px;
   height: 43px;
   .map-button{
     border-radius: 3px;
     color: white;
     padding: 5px 20px;
-    background-color: #00CB00;
+    background-color: #9ABB13;
     text-decoration: none;
     float: right;
     position: absolute;
@@ -118,28 +119,29 @@
 .navbar-nav .dropdown-menu{
   width: 76vw;
   // left: 44px; 
-  background-color: #3498db;
+  background-color: #0C99C7;
 }
 .navbar-default .navbar-nav>.open>a{
-  &, &:hover, &:focus {
+  &, &:hover, &:focus, &:active {
     color: white;
-    background-color: #3498db;
+    background-color: #0C99C7;
   }
 }
 .footer{
-  background-color: #03033B;
+  background-color: #003664;
   color: #34495e;
   #footerhead{
     color: white;
-  }
-  .row{
-    margin-left: 52px;
+    font-size: 17px;
   }
   .lastcolumn{
     float: right;
   }
   h4 {
     color: white;
+  }
+  h5{
+    color: #0C99C7;
   }
 }
 #table-header{
@@ -149,4 +151,9 @@
 }
 #View-Location{
   color: #3498db;
+}
+
+#map-canvas {
+  width: 100%;
+  height: 500px;
 }
