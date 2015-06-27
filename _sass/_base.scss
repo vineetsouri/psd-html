@@ -67,10 +67,11 @@
 #navcontainer ul li{
   display: inline;
 }
-#navcontainer ul li a{
+#navcontainer ul li .in_map_points{
   color: #ecf0f1;
   margin: 11px;
   font-weight: bold;
+  text-decoration: none;
 }
 .inmap{
   position: relative;
@@ -78,35 +79,25 @@
   background-color: #003664;
   // margin-left: 70px;
   height: 43px;
-  .map-button{
-    border-radius: 3px;
-    color: white;
-    padding: 5px 20px;
-    background-color: #9ABB13;
-    text-decoration: none;
-    float: right;
-    position: absolute;
-    top: -5px;
-    right: 0;
-    &:hover {
-      color: black;
-      background-color: white;
-    }
+}
+.map-button{
+  border-radius: 3px;
+  color: white;
+  padding: 5px 20px;
+  background-color: #9ABB13;
+  text-decoration: none;
+  float: right;
+  position: absolute;
+  top: 7px;
+  margin-right: 8px;
+  right: 0;
+  &:hover {
+    color: red;
+    background-color: white;
   }
 }
-#number1{
-  color: black;
-  border-radius: 50%;
-  background-color: white;
-  width: 25px;
-  display: inline-block;
-  height: 25px;
-  line-height: 25px;
-  text-align: center;
-  margin-right: 15px;
-}
-#number2{
-  color: black;
+#number{
+  color: blue;
   border-radius: 50%;
   background-color: white;
   width: 25px;
@@ -140,10 +131,22 @@
     border-radius: 4px;
   }
 }
+.my_dropdown{
+  width: 200px;
+  margin-left: 95px;
+  margin-top: -4px;
+  border-radius: 0px;
+}
+.btn .caret{
+  margin-left: 95px;
+}
 #indented-container {
   background-color: #FFFFFF;
   margin-left: 45px;
   padding: 0px 25px;  
+}
+.chat_icons{
+  margin-left: 20px;
 }
 .footer{
   background-color: #003664;
@@ -177,5 +180,5 @@
 }
 
 .footer-matter{
-    color: #2A67A1;
-  }
+  color: #2A67A1;
+}

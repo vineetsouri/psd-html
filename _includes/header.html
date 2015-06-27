@@ -3,13 +3,13 @@
     <div class="row">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <a class="navbar-brand" href="#"><span class="loc">LOCATION</span> <span class="fin">FIND&nbsp<i class="fa fa-map-marker fa-4"></i></span></a>
+        <a class="navbar-brand" href="#"><span class="loc">LOCATION</span> <span class="fin">FIND&nbsp;<i class="fa fa-map-marker fa-4"></i></span></a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse pull-right mainright" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li class="rightset">Our Network&nbsp&nbsp&nbsp<i class="fa fa-caret-square-o-down fa-1x"></i></li></li>
+          <li class="rightset">Our Network&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-square-o-down fa-1x"></i></li></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div> 
@@ -22,7 +22,7 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li role="presentation"><a href="#" class="navicons1 dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-map-marker fa-4"></i>
-            &nbspFind Locations</a>
+            &nbsp;Find Locations</a>
             <ul class="dropdown-menu list-inline">
               <li><a class="active"href="#">Find a Location</a></li>
               <li><a class="active"href="#">Add a Location</a></li>
@@ -31,13 +31,13 @@
               <li><a class="active last"href="#">Register</a></li>
             </ul>
           </li>
-          <li role="presentation"><a href="#" class="navicons"><i class="fa fa-book"></i>&nbspOur Species</a></li>
-          <li role="presentation"><a href="#" class="navicons"><i class="fa fa-shopping-cart"></i>&nbspShop</a></li>     
+          <li role="presentation"><a href="#" class="navicons"><i class="fa fa-book"></i>&nbsp;Our Species</a></li>
+          <li role="presentation"><a href="#" class="navicons"><i class="fa fa-shopping-cart"></i>&nbsp;Shop</a></li>     
         </ul>
         <ul class="nav navbar-nav navbar-right righticons">
-          <li role="presentation" class="navicons2" ><a href="#" id="icon4"><i class="fa fa-folder-open"></i>&nbspMy Account</a></li>
-          <li role="presentation" ><a href="#"><i class="fa fa-bookmark"></i>&nbspSign Up</a></li>
-          <li role="presentation" ><a href="#"><i class="fa fa-envelope"></i>&nbspContact</a></li>       
+          <li role="presentation" class="navicons2" ><a href="#" id="icon4"><i class="fa fa-folder-open"></i>&nbsp;My Account</a></li>
+          <li role="presentation" ><a href="#"><i class="fa fa-bookmark"></i>&nbsp;Sign Up</a></li>
+          <li role="presentation" ><a href="#"><i class="fa fa-envelope"></i>&nbsp;Contact</a></li>       
         </ul>
       </div>
     </div>
@@ -48,10 +48,21 @@
   <div class="inmap container">
     <ul class="map-options">
       <li>
-        <a href="#"><span id = "number1">1</span>Drop pin onto the location on map</a>
+        <a href="#" class="in_map_points"><span id = "number">1</span>Drop pin onto the location on map</a>
       </li> 
       <li>
-        <a href="#"><span id="number2">2</span>Add a species found at location</a>
+        <a href="#" class="in_map_points"><span id="number">2</span>Add a species found at location</a>
+      </li>
+      <li>
+        <button class="btn btn-default dropdown-toggle my_dropdown" type="button" id="menu1" data-toggle="dropdown">Select Fish
+    <span class="caret"></span></button>
+    <!-- <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+      <li role="presentation" class="divider"></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
+    </ul> -->
       </li>
       <li>
         <a href="#" class="map-button">Add Location</a>
@@ -75,22 +86,22 @@
         <tr class="warning">
           <td>Blaz'z wicked ass fishing spot</td>
           <td>Mullet, Australian Salmon</td>    
-          <td>See Location</td>
+          <td>See Location<i class="fa fa-weixin fa-2x chat_icons"></i></td>
         </tr>
         <tr>
           <td>Ball Bag River</td>
           <td>Australian Salamon</td>    
-          <td>See Location</td>
+          <td>See Location<i class="fa fa-weixin fa-2x chat_icons"></i></td>
         </tr>
         <tr class="warning">
           <td>Raz'z wicked ass fishing spot</td>
           <td>Mattagidise</td>    
-          <td>See Location</td>
+          <td>See Location<i class="fa fa-weixin fa-2x chat_icons"></i></td>
         </tr>
         <tr>
           <td>Ball Bag River</td>
           <td>Australian Salamon</td>    
-          <td>See Location</td>
+          <td>See Location<i class="fa fa-weixin fa-2x chat_icons"></i></td>
         </tr>
       </table>
       <p id="table-header">Recent locations you've rated</p>
@@ -99,49 +110,49 @@
         <tr class="info">
           <td>Blaz'z wicked ass fishing spot</td>
           <td>Mullet, Australian Salmon</td>
-          <td><i class="fa fa-star"></i>&nbsp&nbsp<i class="fa fa-star"></i>&nbsp&nbsp<i class="fa fa-star"></i>&nbsp&nbsp<i class="fa fa-star"></i></td>
+          <td><i class="fa fa-star"></i>&nbsp;&nbsp;<i class="fa fa-star"></i>&nbsp;&nbsp;<i class="fa fa-star"></i>&nbsp;&nbsp;<i class="fa fa-star"></i></td>
           <td id="View-Location">View Location on map</td>
         </tr>
         <tr>
           <td>Ball Bag River</td>
           <td>Australian Salamon</td>
-          <td><i class="fa fa-star"></i>&nbsp&nbsp<i class="fa fa-star"></i>&nbsp&nbsp<i class="fa fa-star"></i>&nbsp&nbsp<i class="fa fa-star"></i></td>    
+          <td><i class="fa fa-star"></i>&nbsp;&nbsp;<i class="fa fa-star"></i>&nbsp;&nbsp;<i class="fa fa-star"></i>&nbsp;&nbsp;<i class="fa fa-star"></i></td>    
           <td id="View-Location">View Location on map</td>
         </tr>
         <tr class="info">
           <td>Raz'z wicked ass fishing spot</td>
           <td>Mattagidise</td>
-          <td><i class="fa fa-star"></i>&nbsp&nbsp<i class="fa fa-star"></i>&nbsp&nbsp<i class="fa fa-star"></i>&nbsp&nbsp<i class="fa fa-star"></i></td>
+          <td><i class="fa fa-star"></i>&nbsp;&nbsp;<i class="fa fa-star"></i>&nbsp;&nbsp;<i class="fa fa-star"></i>&nbsp;&nbsp;<i class="fa fa-star"></i></td>
           <td id="View-Location">View Location on map</td>
         </tr>
         <tr>
           <td>Ball Bag River</td>
           <td>Australian Salamon</td>
-          <td><i class="fa fa-star"></i>&nbsp&nbsp<i class="fa fa-star"></i>&nbsp&nbsp<i class="fa fa-star"></i>&nbsp&nbsp<i class="fa fa-star"></i></td>
+          <td><i class="fa fa-star"></i>&nbsp;&nbsp;<i class="fa fa-star"></i>&nbsp;&nbsp;<i class="fa fa-star"></i>&nbsp;&nbsp;<i class="fa fa-star"></i></td>
           <td id="View-Location">View Location on map</td>
         </tr>
         <tr class="info">
           <td>Blaz'z wicked ass fishing spot</td>
           <td>Mullet, Australian Salmon</td>
-          <td><i class="fa fa-star"></i>&nbsp&nbsp<i class="fa fa-star"></i>&nbsp&nbsp<i class="fa fa-star"></i>&nbsp&nbsp<i class="fa fa-star"></i></td>
+          <td><i class="fa fa-star"></i>&nbsp;&nbsp;<i class="fa fa-star"></i>&nbsp;&nbsp;<i class="fa fa-star"></i>&nbsp;&nbsp;<i class="fa fa-star"></i></td>
           <td id="View-Location">View Location on map</td>
         </tr>
         <tr>
           <td>Ball Bag River</td>
           <td>Australian Salamon</td>
-          <td><i class="fa fa-star"></i>&nbsp&nbsp<i class="fa fa-star"></i>&nbsp&nbsp<i class="fa fa-star"></i>&nbsp&nbsp<i class="fa fa-star"></i></td>    
+          <td><i class="fa fa-star"></i>&nbsp;&nbsp;<i class="fa fa-star"></i>&nbsp;&nbsp;<i class="fa fa-star"></i>&nbsp;&nbsp;<i class="fa fa-star"></i></td>    
           <td id="View-Location">View Location on map</td>
         </tr>
         <tr class="info">
           <td>Raz'z wicked ass fishing spot</td>
           <td>Mattagidise</td>
-          <td><i class="fa fa-star"></i>&nbsp&nbsp<i class="fa fa-star"></i>&nbsp&nbsp<i class="fa fa-star"></i>&nbsp&nbsp<i class="fa fa-star"></i></td>
+          <td><i class="fa fa-star"></i>&nbsp;&nbsp;<i class="fa fa-star"></i>&nbsp;&nbsp;<i class="fa fa-star"></i>&nbsp;&nbsp;<i class="fa fa-star"></i></td>
           <td id="View-Location">View Location on map</td>
         </tr>
         <tr>
           <td>Ball Bag River</td>
           <td>Australian Salamon</td>
-          <td><i class="fa fa-star"></i>&nbsp&nbsp<i class="fa fa-star"></i>&nbsp&nbsp<i class="fa fa-star"></i>&nbsp&nbsp<i class="fa fa-star"></i></td>
+          <td><i class="fa fa-star"></i>&nbsp;&nbsp;<i class="fa fa-star"></i>&nbsp;&nbsp;<i class="fa fa-star"></i>&nbsp;&nbsp;<i class="fa fa-star"></i></td>
           <td id="View-Location">View Location on map</td>
         </tr>
       </table>
